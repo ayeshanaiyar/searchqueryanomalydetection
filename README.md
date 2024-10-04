@@ -2,6 +2,10 @@
 # Overview
 This project defines the  process of identifying unusual patterns or outliers in search query data that deviates significantly from the norm. 
 # Prerequisties
+1. Pip
+2. Python
+3. Jupyter notebook
+# Libraries
 1. Pandas
 2. Matplotlib
 3. Seaborn
@@ -14,7 +18,7 @@ The datasets contains
 4. CTR (Click Through Rate): The ratio of clicks to impressions, indicating the effectiveness of
  the query in leading users to the website.
 5. Position: The average ranking of the website in search results for the query.
-# Description
+# Implementation
 1. Gather historical search query data from the source.
 2. Conduct an initial analysis to understand the distribution of search queries, their frequency, and any noticeable patterns or trends.
 3. Create relevant features from the search query data that can aid in anomaly detection.
